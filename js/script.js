@@ -90,6 +90,6 @@ if (document.getElementById("signinForm")) {
         }
 
         localStorage.setItem("loggedInUser", email);
-        window.location.href = "landing.html";
+        window.location.href = "index.html";
     });
 }
